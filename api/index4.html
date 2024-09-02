@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Bottom Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Content sections -->
+    <div id="home" class="section active"> <!-- Default active section -->
+        <h1>Home</h1>
+        <p>This is the Home section.</p>
+        <div>
+            <h3>Crypto</h3>
+            <p>Details about Crypto</p>
+        </div>
+        <div>
+            <h3>Price</h3>
+            <p>Details about Price</p>
+        </div>
+    </div>
+
+    <div id="position" class="section">
+        <h1>Position</h1>
+        <p>This is the Position section.</p>
+    </div>
+
+    <div id="news" class="section">
+        <h1>News</h1>
+        <p>This is the News section.</p>
+    </div>
+
+    <!-- Bottom navigation -->
+    <div class="bottom-nav">
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('position')">Position</button>
+        <button onclick="showSection('news')">News</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

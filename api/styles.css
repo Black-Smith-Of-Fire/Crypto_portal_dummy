@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.section {
+    display: none; /* Hide all sections initially */
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.active {
+    display: block; /* Show the active section */
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.bottom-nav button {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.bottom-nav button:hover {
+    background-color: #ddd;
+}

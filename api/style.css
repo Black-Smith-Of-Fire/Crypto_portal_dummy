@@ -1,0 +1,115 @@
+element.style {
+    display: none;
+}
+.van-toast--html, .van-toast--text {
+    width: -webkit-fit-content;
+    width: fit-content;
+    min-width: 96px;
+    min-height: 0;
+    padding: 8px 12px;
+}
+.van-toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    box-sizing: content-box;
+    width: 88px;
+    max-width: 70%;
+    min-height: 88px;
+    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: pre-wrap;
+    text-align: center;
+    word-break: break-all;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 8px;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    background-color: #fff;
+    color: #212936;
+    font-size: .28rem;
+    padding-top: constant(safe-area-inset-top);
+}
+body, html {
+    height: 100%;
+    -ms-overflow-style: none;
+    font-family: Inter !important;
+    overflow: -moz-scrollbars-none;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;
+}
+style attribute {
+    font-size: 85.3333px;
+}
+:root {
+    --primary-tab: #eaf3ff;
+    --error-color: #db3b34;
+    --title-color: #344054;
+    --default-color: #344054;
+    --green-color: #0071eb;
+    --green-bg: #e5f1ff;
+    --red-bg: #fecdca;
+    --red-color: #b42318;
+    --gray-bg: #f4f6f8;
+    --gray-color: #667085;
+    --primary-bg: #e1edff;
+    --orange-bg: #ffefe1;
+    --orange-color: #fe8935;
+    --blue-color: #cd0511;
+    --white-color: #fff;
+    --system-bg: #f4f6f8;
+    --system-color: #667085;
+    --read-color: #a0a0a0;
+    --shallow-color: #f2f2f2;
+    --gold-color: #895622;
+    --gr-color: #179149;
+}
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
