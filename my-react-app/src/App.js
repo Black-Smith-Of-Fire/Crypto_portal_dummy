@@ -1,11 +1,17 @@
+// src/App.js
 import React from 'react';
-import PriceDisplay from './components/PriceDisplay';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Position from './components/Position';
+import News from './components/News';
 
 function App() {
   return (
     <div className="App">
-      <h1>Crypto Portal</h1>
-      <PriceDisplay />
+      <Navbar />
+      <Home />
+      <Position />
+      <News />
     </div>
   );
 }
