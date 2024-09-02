@@ -1,0 +1,11 @@
+/* src/components/Section.css */
+.section {
+    padding: 20px;
+  }
+  .crypto-section,
+  .price-section {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+  }
+  
