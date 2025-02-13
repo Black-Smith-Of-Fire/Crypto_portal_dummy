@@ -1,1 +1,1 @@
-Crypto portal dummy for hackathon
+Crypto portal dummy 
